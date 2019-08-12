@@ -1,0 +1,19 @@
+# Disable system bell in Xorg                                                      
+if [ -n "$DISPLAY" ]; then                                                         
+    xset b off                                                                     
+fi                                                                                 
+                                                                                   
+# Vim is my editor!                                                                
+EDITOR=vim                                                                         
+GIT_EDITOR=vim                                                                     
+                                                                                   
+# Allow finding useful binaries from sbins                                         
+export PATH="/usr/sbin:$PATH"                                                      
+export PATH="/sbin:$PATH"                                                          
+# Ruby gems path for using ruby without sudo                                       
+export GEM_HOME=$HOME/.gem                                                         
+export GEM_PATH=$HOME/.gem/bin                                                     
+# Travis-CI executable                                                             
+export PATH="$GEM_HOME/gems/travis-1.8.10/bin:$PATH"                               
+# vim.nox is the vim version with scripting languages support                      
+alias "vim"="vim.nox"
