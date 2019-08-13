@@ -1,3 +1,4 @@
+intel-microcode
 sudo
 bash-completion
 python-optcomplete
