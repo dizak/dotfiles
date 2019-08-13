@@ -2,7 +2,6 @@
 if [ -n "$DISPLAY" ]; then                                                         
     xset b off                                                                     
 fi                                                                                 
-                                                                                   
 # Vim is my editor!                                                                
 EDITOR=vim                                                                         
 GIT_EDITOR=vim                                                                     
