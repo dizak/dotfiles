@@ -5,7 +5,10 @@ fi
 # Vim is my editor!                                                                
 EDITOR=vim                                                                         
 GIT_EDITOR=vim                                                                     
-                                                                                   
+# Find executables installed locally with pip
+if [ -d "$HOME/.local/bin" ]; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
 # Allow finding useful binaries from sbins                                         
 export PATH="/usr/sbin:$PATH"                                                      
 export PATH="/sbin:$PATH"                                                          
