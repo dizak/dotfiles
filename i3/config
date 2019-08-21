@@ -214,6 +214,6 @@ bar {
 # set wallpaper
 #exec_always feh --bg-scale /home/dizak/Pictures/futurama-bender_00285528.png
 #exec_always feh --bg-scale /usr/share/wallpapers/FuturePrototype/contents/images/1920x1080.svg
-exec_always feh --bg-scale /home/dizak/Pictures/jets.jpg
+exec_always feh --bg-scale /home/dizak/.wallpapers/jets.jpg
 # set conky system info and usage display
 exec_always conky --config /home/dizak/.config/.conkyrc
