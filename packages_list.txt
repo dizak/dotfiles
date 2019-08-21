@@ -51,3 +51,6 @@ g++
 zlib1g-dev
 hub
 tree
+fonts-liberation
+libappindicator
+xdg-utils
