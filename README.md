@@ -1,5 +1,7 @@
 1. install software from packages_list.txt
 
+1. clone ssh://git@github.com/dizak/i3blocks-contrib.git to ~/.config/i3blocks-contrib
+
 1. add lines from add_to_bashrc.txt to ```.bashrc```
 
 1. uncomment this line from ```/etc/inputrc```:
