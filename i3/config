@@ -146,12 +146,12 @@ bindsym $mod+9 workspace $private_workspace
 bindsym $mod+Shift+0 move container to workspace $chrome_workspace
 bindsym $mod+Shift+1 move container to workspace $terminals_workspace
 bindsym $mod+Shift+2 move container to workspace $mail_workspace
-bindsym $mod+Shift+3 move container to workspace $mail_workspace
-bindsym $mod+Shift+4 move container to workspace $mail_workspace
-bindsym $mod+Shift+5 move container to workspace $mail_workspace
-bindsym $mod+Shift+6 move container to workspace $mail_workspace
-bindsym $mod+Shift+7 move container to workspace $mail_workspace
-bindsym $mod+Shift+8 move container to workspace $mail_workspace
+bindsym $mod+Shift+3 move container to workspace $development_workspace_1
+bindsym $mod+Shift+4 move container to workspace $development_workspace_2
+bindsym $mod+Shift+5 move container to workspace $development_workspace_3
+bindsym $mod+Shift+6 move container to workspace $development_workspace_4
+bindsym $mod+Shift+7 move container to workspace $development_workspace_5
+bindsym $mod+Shift+8 move container to workspace $development_workspace_6
 bindsym $mod+Shift+9 move container to workspace $private_workspace
 
 # move window to scratchpad
