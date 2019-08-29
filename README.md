@@ -12,7 +12,7 @@
 
 ```git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
 
-
+1. copy xorg.conf.d/ to /etc/X11/ to enable tap on touchpad
 
 1. links:
 
