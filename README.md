@@ -14,6 +14,9 @@
 
 1. copy xorg.conf.d/ to /etc/X11/ to enable tap on touchpad
 
+1. set AutoEnable=false in /etc/bluetooth/main.conf to save power.
+bluetooth can be switched on with ```bluetooth on``` command.
+
 1. links:
 
     - ```gtk-3.0``` -> ```~/.config/gtk-3.0```
