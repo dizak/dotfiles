@@ -12,7 +12,10 @@
 
 ```git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
 
+1. copy xorg.conf.d/ to /etc/X11/ to enable tap on touchpad
 
+1. set AutoEnable=false in /etc/bluetooth/main.conf to save power.
+bluetooth can be switched on with ```bluetooth on``` command.
 
 1. links:
 
