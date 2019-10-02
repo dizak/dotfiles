@@ -12,6 +12,8 @@
 
 ```git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
 
+1. install patched powerline fonts by running ```install_powerline_fonts.sh```
+
 1. copy xorg.conf.d/ to /etc/X11/ to enable tap on touchpad
 
 1. set AutoEnable=false in /etc/bluetooth/main.conf to save power.
