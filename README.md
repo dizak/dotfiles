@@ -12,15 +12,7 @@
 
 ```git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim```
 
-1. install patched Powerline fonts:
-
-```
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-cd ..
-rm -rf fonts
-```
+1. install patched powerline fonts by running ```install_powerline_fonts.sh```
 
 1. clone really cool prompt  ```git@gist.github.com:aaf1d0050981bad6a3475a59703c6f78.git``` to ```~/.prompt.sh``` and source it from ```.bashrc```
 
