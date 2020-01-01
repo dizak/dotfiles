@@ -72,6 +72,12 @@ set shiftwidth=4
 " Auto-indent
 set autoindent
 set smartindent
+" Set single dir for undofile
+set undodir=~/.vim/undodir
+" Keep undo file
+set undofile
+" Incremental search - search and highlight while typing query
+set incsearch
 " Characters to display as whitespace characters
 " Use :set list command to show them
 set listchars=eol:$,tab:>-,trail:~,space:~,extends:>,precedes:<
