@@ -13,6 +13,7 @@ firefox-esr
 rxvt
 i3blocks
 feh
+mplayer
 rofi
 fonts-ubuntu
 compton
