@@ -33,17 +33,17 @@ for_window [class="crx_nckgahadagoaajjgafhacjanaoiihapd"] floating enable
 exec_always compton --config /home/dizak/.config/compton.conf
 # xfce4 useful services
 # power manager allowing brightness Fn control
-#exec_always xfce4-power-manager
+exec_always xfce4-power-manager
 # volume manager allowing sound Fn control
 #exec xfce4-volumed
 
 # Fn keybindigs without any Graphical Environment elements
 # increse volume
-#bindsym XF86AudioRaiseVolume exec "amixer sset Master 5%+"
+bindsym XF86AudioRaiseVolume exec "amixer sset Master 5%+"
 # decrease volume
-#bindsym XF86AudioLowerVolume exec "amixer sset Master 5%-"
+bindsym XF86AudioLowerVolume exec "amixer sset Master 5%-"
 # mute
-#bindsym XF86AudioMute exec "amixer sset Master 0%"
+bindsym XF86AudioMute exec "amixer sset Master 0%"
 # increase monitor brightness
 #bindsym XF86MonBrightnessUp exec xbacklight +5
 # decrease monitor brightness
