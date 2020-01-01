@@ -171,7 +171,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 #bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 # autolock
-exec xautolock -time 3 -noclose -locker "i3lock --color '#111111' --show-failed-attempts"
+exec xautolock -time 5 -noclose -corners 000- -cornersize 100 -locker "i3lock --color '#111111' --show-failed-attempts"
 # power off
 bindsym $mod+Control+Delete exec /home/dizak/.config/i3blocks-contrib/shutdown_menu/shutdown_menu
 
