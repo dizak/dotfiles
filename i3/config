@@ -29,6 +29,8 @@ font pango: Ubuntu Medium 14
 for_window [class="^.*"] border pixel 2
 # Make Hangouts float
 for_window [class="crx_nckgahadagoaajjgafhacjanaoiihapd"] floating enable
+# Make KeePass2 float
+for_window [class="KeePass2"] floating enable
 # Compton for opacity etc
 exec_always compton --config /home/dizak/.config/compton.conf
 # xfce4 useful services
