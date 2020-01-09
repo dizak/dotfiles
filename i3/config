@@ -218,4 +218,4 @@ bar {
 # set wallpaper
 exec_always feh --bg-scale /home/dizak/.wallpapers/jets.jpg
 # set conky system info and usage display
-exec_always conky --config /home/dizak/.config/conkyrc
+exec_always conky --config /home/dizak/.config/.conkyrc
