@@ -81,6 +81,11 @@ set incsearch
 " Allow recursive fuzzy file search
 set path+=**
 set wildmenu
+" Use tags for jumping to definition. ^] to jump to a tag. g] to see
+" occurences. Note that it requires ctags utility know as universal-ctags in
+" apt. ctags creates a file called tags for that. It will give shell output on
+" vim start as any external command
+" "!ctags -R .
 " Characters to display as whitespace characters
 " Use :set list command to show them
 set listchars=eol:$,tab:>-,trail:~,space:~,extends:>,precedes:<
