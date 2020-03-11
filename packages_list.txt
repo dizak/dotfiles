@@ -57,3 +57,4 @@ fonts-liberation
 libappindicator
 xdg-utils
 xfce4-power-manager
+universal-ctags
