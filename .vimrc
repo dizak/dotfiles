@@ -78,6 +78,9 @@ set undodir=~/.vim/undodir
 set undofile
 " Incremental search - search and highlight while typing query
 set incsearch
+" Allow recursive fuzzy file search
+set path+=**
+set wildmenu
 " Characters to display as whitespace characters
 " Use :set list command to show them
 set listchars=eol:$,tab:>-,trail:~,space:~,extends:>,precedes:<
