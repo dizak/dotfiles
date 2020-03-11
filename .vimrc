@@ -98,6 +98,11 @@ inoremap {  {}<ESC>hli
 inoremap "  ""<ESC>hli
 inoremap '  ''<ESC>hli
 " =======
+" Snippets
+" Python
+nnoremap pfun :read $HOME/.vim/snippets/python/function.py<CR>
+nnoremap pcla :read $HOME/.vim/snippets/python/class.py<CR>
+" =======
 " Airline status bar
 " colorscheme
 let g:airline_theme='molokai'
