@@ -103,6 +103,12 @@ inoremap '  ''<ESC>hli
 nnoremap pfun :read $HOME/.vim/snippets/python/function.py<CR>
 nnoremap pcla :read $HOME/.vim/snippets/python/class.py<CR>
 " =======
+" =======
+" GitGutter Keybindings
+nnoremap sh :GitGutterStageHunk<CR>
+nnoremap uh :GitGutterUndoHunk<CR>
+nnoremap nh :GitGutterNextHunk<CR>
+nnoremap ph :GitGutterPrevHunk<CR>
 " Airline status bar
 " colorscheme
 let g:airline_theme='molokai'
