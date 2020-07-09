@@ -101,6 +101,9 @@ inoremap {  {}<ESC>hli
 inoremap "  ""<ESC>hli
 inoremap '  ''<ESC>hli
 " =======
+" Spellcheck
+map <leader>o :setlocal spell! spelllang=en_us<CR>
+" =======
 " Snippets
 " Python
 nnoremap pfun :read $HOME/.vim/snippets/python/function.py<CR>
