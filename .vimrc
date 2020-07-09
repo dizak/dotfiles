@@ -57,6 +57,8 @@ filetype plugin indent on    " required
 " Basic configuration
 let $BASH_ENV = "~/.bash_aliases"
 " Block autocompletion beeping
+" Set leader to whitespace
+let mapleader = " "
 set visualbell
 " Do not prompt for confirmation
 set shortmess=a
