@@ -83,7 +83,9 @@ set undofile
 set incsearch
 " Allow recursive fuzzy file search
 set path+=**
+" Display autocompletion propositions
 set wildmenu
+set wildmode=list
 " Use tags for jumping to definition. ^] to jump to a tag. g] to see
 " occurences. Note that it requires ctags utility know as universal-ctags in
 " apt. ctags creates a file called tags for that. It will give shell output on
