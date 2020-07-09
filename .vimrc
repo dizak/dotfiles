@@ -55,6 +55,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 " =======
 " Basic configuration
+let $BASH_ENV = "~/.bash_aliases"
 " Block autocompletion beeping
 set visualbell
 " Do not prompt for confirmation
