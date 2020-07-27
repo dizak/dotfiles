@@ -38,8 +38,6 @@ exec_always compton --config /home/dizak/.config/compton.conf
 # xfce4 useful services
 # power manager allowing brightness Fn control
 exec_always xfce4-power-manager
-# volume manager allowing sound Fn control
-#exec xfce4-volumed
 
 # Fn keybindigs without any Graphical Environment elements
 # increse volume
