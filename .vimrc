@@ -67,7 +67,7 @@ set cmdheight=2
 " Language-syntax-specific highlight
 syntax on
 " Display line numbers
-set number
+set relativenumber
 " Highlight the 80th column - useful for Python
 set colorcolumn=80
 " Indent size. Does not seem to work properly though
