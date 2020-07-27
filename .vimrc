@@ -106,6 +106,11 @@ inoremap [  []<ESC>hli
 inoremap {  {}<ESC>hli
 inoremap "  ""<ESC>hli
 inoremap '  ''<ESC>hli
+" Put existing word into quotes or brackets
+nnoremap <leader>( viw<esc>a)<esc>bi(<esc>lel
+nnoremap <leader>{ viw<esc>a}<esc>bi{<esc>lel
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 " =======
 " Spellcheck
 map <leader>o :setlocal spell! spelllang=en_us<CR>
