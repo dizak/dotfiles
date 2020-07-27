@@ -163,6 +163,12 @@ bindsym $mod+minus scratchpad show
 # duplicate view from display to HDMI output
 bindsym $mod+Shift+d exec xrandr --output HDMI-1 --same-as eDP-1
 
+# run script for selecting bluetooth device to connect to
+bindsym $mod+b exec ~/Software/utils/connect-bluetooth-headphones.sh
+
+# run script for mounting gcloud bucket
+bindsym $mod+m exec ~/Software/utils/mount-gcloud-bucket.sh
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
