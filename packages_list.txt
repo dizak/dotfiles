@@ -58,3 +58,7 @@ libappindicator
 xdg-utils
 xfce4-power-manager
 universal-ctags
+dunst
+ruby-notify
+pulseaudio-module-bluetooth
+nfs-common
