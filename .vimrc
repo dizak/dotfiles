@@ -55,10 +55,16 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 " =======
 " Basic configuration
+" Use functions defined in bash_aliases
 let $BASH_ENV = "~/.bash_aliases"
-" Block autocompletion beeping
-" Set leader to whitespace
+" Edit and source .vimrc mappings
+nnoremap <leader>ev :split $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC<CR>
+" Set leader
 let mapleader = " "
+" Set localleader
+let maplocalleader = "\\"
+" Block autocompletion beeping
 set visualbell
 " Do not prompt for confirmation
 set shortmess=a
@@ -106,12 +112,27 @@ inoremap [  []<ESC>hli
 inoremap {  {}<ESC>hli
 inoremap "  ""<ESC>hli
 inoremap '  ''<ESC>hli
+" Insert just SINGLE bracket/quote if pressed TWICE
+inoremap ((  (
+inoremap [[  [
+inoremap {{  {
+inoremap ""  "
+inoremap ''  '
 " Put existing word into quotes or brackets
 nnoremap <leader>( viw<esc>a)<esc>bi(<esc>lel
+nnoremap <leader>[ viw<esc>a]<esc>bi[<esc>lel
 nnoremap <leader>{ viw<esc>a}<esc>bi{<esc>lel
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
 " =======
+" Abbreviations
+" For clarification of double quote see brackets/quotes autocompletion
+iabbrev adn and
+iabbrev waht what
+iabbrev teh the
+iabbrev tehn then
+iabbrev dont don''t
+iabbrev wont won''t
 " Spellcheck
 map <leader>o :setlocal spell! spelllang=en_us<CR>
 " =======
@@ -232,3 +253,10 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 "=======
+" Run docker-compose up --build
+nnoremap <leader>dc :!docker-compose up --build<CR>
+
+" Example on how to conceal char
+" syntax keyword Statement lambda conceal cchar=λ
+" hi! link conceal Statement
+" set cole=2
