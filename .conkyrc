@@ -154,8 +154,8 @@ ${color lightgrey}Swap Usage:$color $swap/$swapmax - $swapperc% ${swapbar}
 ${color lightgrey}Processes:$color $processes  ${color grey}Running:$color $running_processes
 $color$stippled_hr
 ${color lightgrey}Networking:
- Down:${color #8844ee} ${downspeed wlp2s0} k/s${color lightgrey} ${offset 80}Up:${color #22ccff} ${upspeed wlp2s0} k/s
-${color #0000ff}${downspeedgraph wlp2s0 32,150 ff0000 0000ff} ${color #22ccff}${upspeedgraph wlp2s0 32,150 0000ff ff0000}
+ Down:${color #8844ee} ${downspeed enp3s0} k/s${color lightgrey} ${offset 80}Up:${color #22ccff} ${upspeed enp3s0} k/s
+${color #0000ff}${downspeedgraph enp3s0 32,150 ff0000 0000ff} ${color #22ccff}${upspeedgraph enp3s0 32,150 0000ff ff0000}
 ${color lightgrey}File systems:
  / $color${fs_used /}/${fs_size /} ${fs_bar /}
 ${color}Name              PID     CPU%   MEM%
