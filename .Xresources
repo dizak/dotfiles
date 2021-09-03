@@ -20,7 +20,7 @@ URxvt.keyboard-select.clipboard: true
 
 ! Fonts
 ! =====
-URxvt.font: xft:Roboto Mono for Powerline:size=14
+URxvt.font: xft:Roboto Mono for Powerline:size=12
 URxvt.allow_bold: true
 
 
