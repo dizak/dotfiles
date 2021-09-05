@@ -1,2 +1,3 @@
- xinput set-prop "Apple Inc. Magic Trackpad 2" 310 0.5
- xinput set-prop "Apple Inc. Magic Trackpad 2" 292 1
+ xinput set-prop "Apple Inc. Magic Trackpad 2" "libinput Accel Speed" 0.5
+ xinput set-prop "Apple Inc. Magic Trackpad 2" "libinput Tapping Enabled" 1
+ xinput set-prop "Apple Inc. Magic Trackpad 2" "libinput Middle Emulation Enabled" 1
